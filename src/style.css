@@ -20,11 +20,82 @@ body
     grid-template-areas: "edit-resume resume-showcase";
 }
 
+button
+{
+    width: 50%;
+    height: 50%;
+    font-size: 1.25rem;
+    justify-self: center;
+    align-self: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    cursor: pointer;
+    color: rgb(10, 0, 0);
+}
+
+.prof_summary_button
+{
+    background-color: lime;
+}
+
+.prof_summary_button:hover
+{
+    background-color: rgb(0, 175, 0);
+    transition: 0.5s;
+}
+
+.education_button
+{
+    background-color: rgba(108, 221, 255, 0.596);
+}
+
+.education_button:hover
+{
+    background-color: rgba(71, 157, 184, 0.596);
+    transition: 0.5s;
+}
+
+.skills_button
+{
+    background-color: rgb(139, 139, 139);
+}
+
+.skills_button:hover
+{
+    background-color: rgb(94, 94, 94);
+    transition: 0.5s;
+}
+
+.experience_button
+{
+    background-color: rgb(255, 101, 101);
+}
+
+.experience_button:hover
+{
+    background-color: rgb(194, 79, 79);
+    transition: 0.5s;
+}
+
+.print_button
+{
+    background-color: rgb(73, 73, 250);
+}
+
+.print_button:hover
+{
+    background-color: rgb(47, 47, 241);
+    transition: 0.5s;
+}
+
 .edit-resume
 {
     grid-area: edit-resume;
+    display: grid;
     background-color: #d30387;
     border-right: 25px solid #ad026e8c;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: "";
 }
 
 .resume-showcase
