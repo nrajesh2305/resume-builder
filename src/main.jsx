@@ -7,7 +7,7 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <div className="flex flex-col items-center font-sans ">
       <h1 className="font-semibold text-white text-6xl tracking-tight p-8 drop-shadow-lg">
-        EasyCV
+        Quick Resume Builder
       </h1>
 
       <App />

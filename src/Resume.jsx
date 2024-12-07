@@ -7,7 +7,7 @@ const Resume = forwardRef(
   ) => {
     return (
       <div
-        className="bg-white shadow-md rounded-md mb-10 flex flex-col items-center w-[8.5in] min-h-[11in] font-serif gap-0 origin-top
+        className="bg-white shadow-md rounded-md mb-10 flex flex-col items-center w-[8.5in] max-h-[11in] font-serif gap-0 origin-top
         [@media(max-width:1140px)]:scale-75
         [@media(max-width:500px)]:scale-50
         "
