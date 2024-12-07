@@ -122,7 +122,7 @@ export default function App() {
 
   return (
     <div
-      className={`flex justify-center gap-4
+      className={`flex justify-center gap-20
       ${isVisible ? "animate-fadeIn" : ""}
       [@media(max-width:1140px)]:flex-col 
       [@media(max-width:1140px)]:items-center
