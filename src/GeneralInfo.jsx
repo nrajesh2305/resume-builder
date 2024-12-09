@@ -21,7 +21,7 @@ export default function GeneralInfo({ generalInfo, setGeneralInfo }) {
   return (
      <div
         ref={containerRef}
-        className={`text-gray-800 flex flex-col bg-white shadow-lg p-6 rounded-lg transition-height duration-1000 overflow-hidden
+        className={`text-gray-800 bg-white shadow-lg p-6 rounded-lg transition-height duration-1000 overflow-hidden w-[500px] 
         ${
            isFullHeight
               ? "h-96 overflow-y-scroll scrollbar scrollbar-track-transparent scrollbar-thumb-gray-300"
