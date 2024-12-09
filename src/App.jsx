@@ -143,7 +143,7 @@ export default function App() {
         />
         <button
           onClick={() => toPDF()}
-          className="px-4 py-3 text-xl bg-indigo-600 text-white rounded-md hover:bg-indigo-700"
+          className="px-4 py-3 text-xl bg-indigo-600 text-white rounded-md hover:bg-indigo-700 mb-4"
         >
           Download PDF
         </button>
