@@ -27,8 +27,8 @@ export default function GeneralInfo({ generalInfo, setGeneralInfo }) {
               ? "h-96 overflow-y-scroll scrollbar scrollbar-track-transparent scrollbar-thumb-gray-300"
               : "h-20"
         }`}
-         onClick={handleMouseEnter}
-         onDoubleClick={handleMouseLeave}
+         onMouseEnter={handleMouseEnter}
+         onClick={handleMouseLeave}
       >
          <h1 className="text-3xl font-semibold mb-6">General Info</h1>
          {Object.keys(generalInfo).map((field) => (

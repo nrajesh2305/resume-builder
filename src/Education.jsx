@@ -52,8 +52,8 @@ export default function Education({ education, setEducation }) {
               ? "h-96 overflow-y-scroll scrollbar scrollbar-track-transparent scrollbar-thumb-gray-300"
               : "h-20"
         }`}
-        onClick={handleMouseEnter}
-        onDoubleClick={handleMouseLeave}
+        onMouseEnter={handleMouseEnter}
+        onClick={handleMouseLeave}
      >
         <h1 className="text-3xl font-semibold mb-6">Education</h1>
 
