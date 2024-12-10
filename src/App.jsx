@@ -128,6 +128,7 @@ export default function App() {
       [@media(max-width:1240px)]:items-center
       `}
     >
+      {/* Input Sections */}
       <div className="flex flex-col gap-4">
         <GeneralInfo
           generalInfo={generalInfo}
@@ -148,15 +149,21 @@ export default function App() {
           Download PDF
         </button>
       </div>
-      <Resume
-        ref={targetRef}
-        generalInfo={generalInfo}
-        education={education}
-        skills={skills}
-        projects={projects}
-        experience={experience}
-        extracurriculars={extracurriculars}
-      />
+  
+      {/* Sticky Resume Preview */}
+      <div className="sticky top-5 h-screen">
+        <Resume
+          ref={targetRef}
+          generalInfo={generalInfo}
+          education={education}
+          skills={skills}
+          projects={projects}
+          experience={experience}
+          extracurriculars={extracurriculars}
+        />
+      </div>
     </div>
   );
+  
+  
 }
