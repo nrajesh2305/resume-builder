@@ -9,7 +9,7 @@ import Experience from "./Experience";
 import Extracurriculars from "./Extracurriculars";
 
 export default function App() {
-  const { toPDF, targetRef } = usePDF({ filename: "EasyCV.pdf" });
+  const { toPDF, targetRef } = usePDF({ filename: "Resume.pdf" });
   const [generalInfo, setGeneralInfo] = useState({
     first: "John",
     last: "Smith",
